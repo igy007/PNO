@@ -35,12 +35,14 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 ### Blokové schéma datové cesty
 
 
-image::/datapath.jpg[width="800"]
+![datapath](https://user-images.githubusercontent.com/47743251/229141003-c946c7d4-6125-4e7c-88fc-1debf4b3f755.jpg)
+
 
 
 ### Graf přechodů a výstupů řadiče
 
-image::/controller.jpg[width="800"]
+
+![controller](https://user-images.githubusercontent.com/47743251/229141051-418d951b-a8f8-4d52-99d4-7537e9b02aef.jpg)
 
 
 
