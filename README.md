@@ -125,9 +125,9 @@ POZOR: V tomto režimu se čtverec posouvá odzhora dolu!
 
 ### Videoukázka funkčního VGA kontroléru ovládaného skrze 8 přepínačů
 
-(videoukázkou funkčního celku spolu s Ambient Light Senzorem bohužel nedisponuji, jelikož ALS měl k dispozici pouze kolega Zahradník)
-
 ![https://youtube.com/shorts/SK32eEqqg_Y](https://youtube.com/shorts/SK32eEqqg_Y)
+
+(videoukázkou funkčního celku spolu s Ambient Light Senzorem bohužel nedisponuji, jelikož ALS měl k dispozici pouze kolega Zahradník)
 
 #### Použité zdroje
 
