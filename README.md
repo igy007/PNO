@@ -72,8 +72,10 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 
 ### Rozdělení rolí
 
-| Teamy | Členové  | Role projektu |    
-| ------------ | ------------ |
+| Teamy | Členové  |  |
+| ------------ | ------------ | ------------ |
+|  1. tým |  Jakub Zahradník | Ambient Light Sensor
+| 2. tým  |  Dominik Igerský | VGA kontrolér
 |  1. tým |  Jakub Zahradník | Ambient Light Sensor
 | 2. tým  |  Dominik Igerský | VGA kontrolér
 
