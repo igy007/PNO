@@ -108,7 +108,7 @@ POZOR: V tomto režimu se čtverec posouvá odzhora dolu!
 
 ### Archiv se soubory
 
-semestralka2.zip
+![semestralka2.zip](https://github.com/igy007/PNO/blob/main/sem2_3/semestralka2.zip)
 
 | Soubor  | Popis  |
 | ------------ | ------------ |
@@ -125,7 +125,7 @@ semestralka2.zip
 
 ### Videoukázka funkčního VGA kontroléru ovládaného skrze 8 přepínačů
 
-![YouTube](https://youtube.com/shorts/SK32eEqqg_Y)
+![https://youtube.com/shorts/SK32eEqqg_Y](https://youtube.com/shorts/SK32eEqqg_Y)
 
 #### Použité zdroje
 
