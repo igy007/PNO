@@ -48,12 +48,12 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 
 ### Archiv se soubory
 
-link:/sem_1/semestralka.zip[semestralka_1.zip]
+![semestralka.zip](https://github.com/igy007/PNO/blob/main/sem_1/semestralka.zip)
 
 ### Popis souborů
 | Soubor  | Popis  |
 | ------------ | ------------ |
-| datapath.vhd  | datová cesta  |
+| ![datapath.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/datapath.vhd)  | datová cesta  |
 | controller.vhd  | řídící jednotka  |
 |  ADDER_SUBTRACTOR.vhd | jádro sčítačky   |
 |  TOP_LEVEL.vhd |  top-level entita |
