@@ -123,6 +123,10 @@ semestralka2.zip
 
 <br>
 
+### Videoukázka funkčního VGA kontroléru ovládaného skrze 8 přepínačů
+
+![YouTube](https://youtube.com/shorts/SK32eEqqg_Y)
+
 #### Použité zdroje
 
     
