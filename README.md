@@ -1,15 +1,11 @@
-//[TIP]
-//====
-
-//====
 
 
-== Projekt 1: Úloha 1 - Sčítačka/odčítačka celých čísel v přímém kódu
+## Projekt 1: Úloha 1 - Sčítačka/odčítačka celých čísel v přímém kódu
 
 
 
 
-=== Implementační platforma
+### Implementační platforma
 
 Digilent Basys 3.
 
@@ -17,7 +13,7 @@ Digilent Basys 3.
 
 
 
-=== Popis chování
+### Popis chování
 
 Sčítačka na vstupu přijme 2 osmibitové operandy.
 
@@ -36,70 +32,63 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 
 
 
-=== Blokové schéma datové cesty
+### Blokové schéma datové cesty
 
 
 image::/datapath.jpg[width="800"]
 
 
-=== Graf přechodů a výstupů řadiče
+### Graf přechodů a výstupů řadiče
 
 image::/controller.jpg[width="800"]
 
 
 
-=== Archiv se soubory
+### Archiv se soubory
 
 link:/sem_1/semestralka.zip[semestralka_1.zip]
 
-=== Popis souborů
+### Popis souborů
+| Soubor  | Popis  |
+| ------------ | ------------ |
+| datapath.vhd  | datová cesta  |
+| controller.vhd  | řídící jednotka  |
+|  ADDER_SUBTRACTOR.vhd | jádro sčítačky   |
+|  TOP_LEVEL.vhd |  top-level entita |
+| TOP_LEVEL_SW_MODEL.vhd  | top-level softwareová entita (pro verifikaci)  |
+| TOP_LEVEL_IO.vhd  |  top-level entita pro implementaci do přípravku  |
+| TB_ADDER.vhd  | testbench - kontrola funkčnosti sčítačky jako standalone komponenty  |
+| TB_ADDER_SUBTRACTOR.vhd  | testbench - kontrola oproti zlatému standardu  |
+| HEX2SEG.vhd  | převodník na sedmisegmentovky  |
 
-
-[options="autowidth"]
-|====
-^h|  Soubor                                                                ^h|  Popis
-| link:/sem_/sources_1/new/datapath.vhd[datapath.vhd]                           | datová cesta
-| link:/sem_1/sources_1/new/controller.vhd[controller.vhd]                        | řídící jednotka
-| link:/sem_1/sources_1/new/ADDER_SUBTRACTOR.vhd[ADDER_SUBTRACTOR.vhd]                        | jádro sčítačky
-| link:/sem_1/sources_1/new/TOP_LEVEL.vhd[TOP_LEVEL.vhd]        | top-level entita 
-| link:/sem_1/sources_1/new/TOP_LEVEL_SW_MODEL.vhd[TOP_LEVEL_SW_MODEL.vhd]        | top-level softwareová entita (pro verifikaci)
-| link:/sem_1/sources_1/new/TOP_LEVEL_IO.vhd[TOP_LEVEL_IO.vhd]                            | top-level entita pro implementaci do přípravku 
-| link:/sem_1/sim_1/new/TB_ADDER.vhd[TB_ADDER.vhd]              | testbench - kontrola funkčnosti sčítačky jako standalone komponenty
-| link:/sem_1/sim_1/new/TB_ADDER_SUBTRACTOR.vhd[TB_ADDER_SUBTRACTOR.vhd]            | testbench - kontrola oproti zlatému standardu
-
-| link:{srcdir1}/sem_1/sources_1/new/HEX2SEG.vhd[HEX2SEG.vhd]                            | převodník na sedmisegmentovky
-
-|====
+<br>
 
 
 
+## Projekt 2: Úloha 10 - VGA a Ambient Ligth Sensor
 
 
+### Rozdělení rolí
 
-== Projekt 2: Úloha 10 - VGA a Ambient Ligth Sensor
-
-
-=== Rozdělení rolí
-
-
-
-[options="autowidth"]
-|====
-| 1. tým   | Jakub Zahradník
-| 2. tým   | Dominik Igerský
-|====
-
-
-
-=== Implementační platforma
-
-Digilent Basys 3.
+| Teamy | Členové  |  |    
+| ------------ | ------------ |
+|  1. tým |  Jakub Zahradník | Ambient Light Sensor
+| 2. tým  |  Dominik Igerský | VGA kontrolér
 
 
 
 
 
-=== Popis chování
+
+### Implementační platforma
+
+Digilent Basys 3
+
+
+
+
+
+### Popis chování
 
 Přípravek periodicky vyčítá informaci o okolním osvětlení z ALS modulu za použití SPI rozhraní 
 a tuto 8-bitovou hodnotu poté používá jako Y-ovou souřadnici bílého čtverce (20x20), 
@@ -115,31 +104,26 @@ POZOR: V tomto režimu se čtverec posouvá odzhora dolu!
 Čím vyšší je hodnota vyčtená z přepínačů, tím níž se bude čtverec nacházet.
 
 
-=== Archiv se soubory
+### Archiv se soubory
 
-link:/sem2_3/semestralka2.zip[semestralka_2.zip]
+semestralka2.zip
 
-
-[options="autowidth"]
-|====
-^h|  Soubor                                                                ^h|  Popis
-| link:/sem2_3/sources_1/new/AMBIENT.vhd[AMBIENT.vhd]                           | Mobul pro komunikaci s PModem (Autor: Zahradník Jakub)
-| link:/sem2_3/sources_1/new/CLK_DIVIDER.vhd[CLK_DIVIDER.vhd]                        | Hodinová dělička pro korektní VGA časování
-| link:/sem2_3/sources_1/new/TOP_LEVEL.vhd[TOP_LEVEL.vhd]                        | Top Level entita spojující ALS a VGA 
-| link:/sem2_3/sources_1/new/VGA.vhd[VGA.vhd]        | VGA kontroler 
-| link:/sem2_3/sim_1/new/TB_AMBIENT.vhd[TB_AMBIENT.vhd]              | Testbench pro komunikaci s ALS modulem
-| link:/sem2_3/sim_1/new/TB_VGA.vhd[TB_VGA.vhd]            | Testbench VGA kontroleru (Autor: Zahradník Jakub)
-
-| link:/sem2_3/constrs_1/new/ambient_vga.xdc[ambient_vga.xdc]                            | mapování na IO Basys 3
-
-|====
+| Soubor  | Popis  |
+| ------------ | ------------ |
+| AMBIENT.vhd  | Mobul pro komunikaci s PModem (Autor: Zahradník Jakub)  |
+| CLK_DIVIDER.vhd  | Hodinová dělička pro korektní VGA časování  |
+|  TOP_LEVEL.vhd |  Top Level entita spojující ALS a VGA  |
+| VGA.vhd  | VGA kontroler  |
+| TB_AMBIENT.vhd  | Testbench pro komunikaci s ALS modulem  |
+| TB_VGA.vhd  | Testbench VGA kontroleru (Autor: Zahradník Jakub)  |
+| abmient_vga.xdc  |  mapování na IO Basys 3  |
 
 
-=== Použité zdroje
-[TIP]
-====
+<br>
+
+#### Použité zdroje
+
     
-    https://reference.digilentinc.com/learn/programmable-logic/tutorials/vga-display-congroller/start
-    http://tinyvga.com/vga-timing/640x480@60Hz
+	https://reference.digilentinc.com/learn/programmable-logic/tutorials/vga-display-congroller/start
+	http://tinyvga.com/vga-timing/640x480@60Hz
     
-====
