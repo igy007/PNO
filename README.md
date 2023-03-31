@@ -112,13 +112,13 @@ semestralka2.zip
 
 | Soubor  | Popis  |
 | ------------ | ------------ |
-| AMBIENT.vhd  | Mobul pro komunikaci s PModem (Autor: Zahradník Jakub)  |
-| CLK_DIVIDER.vhd  | Hodinová dělička pro korektní VGA časování  |
-|  TOP_LEVEL.vhd |  Top Level entita spojující ALS a VGA  |
-| VGA.vhd  | VGA kontroler  |
-| TB_AMBIENT.vhd  | Testbench pro komunikaci s ALS modulem  |
-| TB_VGA.vhd  | Testbench VGA kontroleru (Autor: Zahradník Jakub)  |
-| abmient_vga.xdc  |  mapování na IO Basys 3  |
+| ![AMBIENT.vhd](https://github.com/igy007/PNO/blob/main/sem2_3/sources_1/new/AMBIENT.vhd)  | Mobul pro komunikaci s PModem (Autor: Zahradník Jakub)  |
+| ![CLK_DIVIDER.vhd](https://github.com/igy007/PNO/blob/main/sem2_3/sources_1/new/CLK_DIVIDER.vhd)  | Hodinová dělička pro korektní VGA časování  |
+|  ![TOP_LEVEL.vhd](https://github.com/igy007/PNO/blob/main/sem2_3/sources_1/new/TOP_LEVEL.vhd) |  Top Level entita spojující ALS a VGA  |
+| ![VGA.vhd](https://github.com/igy007/PNO/blob/main/sem2_3/sources_1/new/VGA.vhd)  | VGA kontroler  |
+| ![TB_AMBIENT.vhd](https://github.com/igy007/PNO/blob/main/sem2_3/sim_1/new/TB_AMBIENT.vhd)  | Testbench pro komunikaci s ALS modulem  |
+| ![TB_VGA.vhd](https://github.com/igy007/PNO/blob/main/sem2_3/sim_1/new/TB_VGA.vhd)  | Testbench VGA kontroleru (Autor: Zahradník Jakub)  |
+| ![abmient_vga.xdc](https://github.com/igy007/PNO/blob/main/sem2_3/constrs_1/new/ambient_vga.xdc)  |  mapování na IO Basys 3  |
 
 
 <br>
