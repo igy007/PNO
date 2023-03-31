@@ -129,6 +129,7 @@ POZOR: V tomto režimu se čtverec posouvá odzhora dolu!
 
 (videoukázkou funkčního celku spolu s Ambient Light Senzorem bohužel nedisponuji, jelikož ALS měl k dispozici pouze kolega Zahradník)
 
+<br><br>
 ### Použité zdroje
 
     
