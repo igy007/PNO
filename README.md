@@ -54,14 +54,14 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 | Soubor  | Popis  |
 | ------------ | ------------ |
 | ![datapath.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/datapath.vhd)  | datová cesta  |
-| controller.vhd  | řídící jednotka  |
-|  ADDER_SUBTRACTOR.vhd | jádro sčítačky   |
-|  TOP_LEVEL.vhd |  top-level entita |
-| TOP_LEVEL_SW_MODEL.vhd  | top-level softwareová entita (pro verifikaci)  |
-| TOP_LEVEL_IO.vhd  |  top-level entita pro implementaci do přípravku  |
-| TB_ADDER.vhd  | testbench - kontrola funkčnosti sčítačky jako standalone komponenty  |
-| TB_ADDER_SUBTRACTOR.vhd  | testbench - kontrola oproti zlatému standardu  |
-| HEX2SEG.vhd  | převodník na sedmisegmentovky  |
+| ![controller.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/controller.vhd)  | řídící jednotka  |
+|  ![ADDER_SUBTRACTOR.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/ADDER_SUBTRACTOR.vhd) | jádro sčítačky   |
+|  ![TOP_LEVEL.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/TOP_LEVEL.vhd) |  top-level entita |
+| ![TOP_LEVEL_SW_MODEL.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/TOP_LEVEL_SW_MODEL.vhd)  | top-level softwareová entita (pro verifikaci)  |
+| ![TOP_LEVEL_IO.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/TOP_LEVEL_IO.vhd)  |  top-level entita pro implementaci do přípravku  |
+| ![TB_ADDER.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/TB_ADDER.vhd)  | testbench - kontrola funkčnosti sčítačky jako standalone komponenty  |
+| ![TB_ADDER_SUBTRACTOR.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/TB_ADDER_SUBTRACTOR.vhd)  | testbench - kontrola oproti zlatému standardu  |
+| ![HEX2SEG.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/HEX2SEG.vhd)  | převodník na sedmisegmentovky  |
 
 <br>
 
