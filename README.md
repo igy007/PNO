@@ -61,7 +61,7 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 | ![TOP_LEVEL_IO.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/TOP_LEVEL_IO.vhd)  |  top-level entita pro implementaci do přípravku  |
 | ![TB_ADDER.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sim_1/new/TB_ADDER.vhd)  | testbench - kontrola funkčnosti sčítačky jako standalone komponenty  |
 | ![TB_ADDER_SUBTRACTOR.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sim_1/new/TB_ADDER_SUBTRACTOR.vhd)  | testbench - kontrola oproti zlatému standardu  |
-| ![HEX2SEG.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/HEX2SEG.vhd)  | převodník na sedmisegmentovky  |
+| ![HEX2SEG.vhd](https://github.com/igy007/PNO/blob/main/sem_1/sources_1/new/HEX2SEG.vhd)  | převodník na sedmisegmentovky (Autor: Ing. Martin Novotný) |
 
 <br>
 
@@ -125,7 +125,7 @@ POZOR: V tomto režimu se čtverec posouvá odzhora dolu!
 
 ### Videoukázka funkčního VGA kontroléru ovládaného skrze 8 přepínačů
 
-[![https://youtube.com/shorts/SK32eEqqg_Y](https://img.youtube.com/vi/SK32eEqqg_Y/default.jpg)](https://youtube.com/shorts/SK32eEqqg_Y)
+[![Odkaz na video](https://c3.primacdn.cz/sites/default/files/b/83/3923441-youtubelogonew.jpg)](https://youtube.com/shorts/SK32eEqqg_Y)
 
 (videoukázkou funkčního celku spolu s Ambient Light Senzorem bohužel nedisponuji, jelikož ALS měl k dispozici pouze kolega Zahradník)
 
