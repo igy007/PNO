@@ -36,7 +36,7 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 
 
 ![datapath](https://user-images.githubusercontent.com/47743251/229141003-c946c7d4-6125-4e7c-88fc-1debf4b3f755.jpg = 500x400 )
-
+<img src="https://user-images.githubusercontent.com/47743251/229141003-c946c7d4-6125-4e7c-88fc-1debf4b3f755.jpg"  width="200" height="400" />
 
 
 ### Graf přechodů a výstupů řadiče
