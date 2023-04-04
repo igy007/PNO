@@ -35,14 +35,14 @@ V případě potřeby je možné sčítačku kdykoliv zresetovat pomocí prostř
 ### Blokové schéma datové cesty
 
 
-![datapath](https://user-images.githubusercontent.com/47743251/229141003-c946c7d4-6125-4e7c-88fc-1debf4b3f755.jpg | width = 70 )
+![datapath](https://user-images.githubusercontent.com/47743251/229141003-c946c7d4-6125-4e7c-88fc-1debf4b3f755.jpg = 500x400 )
 
 
 
 ### Graf přechodů a výstupů řadiče
 
 
-![controller](https://user-images.githubusercontent.com/47743251/229141051-418d951b-a8f8-4d52-99d4-7537e9b02aef.jpg | width = 70 )
+![controller](https://user-images.githubusercontent.com/47743251/229141051-418d951b-a8f8-4d52-99d4-7537e9b02aef.jpg = 500x400 )
 
 
 
@@ -125,7 +125,7 @@ POZOR: V tomto režimu se čtverec posouvá odzhora dolu!
 
 ### Videoukázka funkčního VGA kontroléru ovládaného skrze 8 přepínačů
 
-[![Odkaz na video](https://c3.primacdn.cz/sites/default/files/b/83/3923441-youtubelogonew.jpg | width = 60 )](https://youtube.com/shorts/SK32eEqqg_Y)
+[![Odkaz na video](https://c3.primacdn.cz/sites/default/files/b/83/3923441-youtubelogonew.jpg | width=60 )](https://youtube.com/shorts/SK32eEqqg_Y)
 
 (videoukázkou funkčního celku spolu s Ambient Light Senzorem bohužel nedisponuji, jelikož ALS měl k dispozici pouze kolega Zahradník)
 
